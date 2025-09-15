@@ -31,16 +31,10 @@
         article {
             margin-bottom: 30px;
         }
-        .placeholder {
-            width: 100%;
-            max-width: 400px;
-            height: 200px;
-            background-color: #ccc;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: #333;
-            font-weight: bold;
+        article img {
+            max-width: 100%;
+            height: auto;
+            display: block;
             margin-top: 10px;
         }
         .speaker {
@@ -48,15 +42,9 @@
             align-items: center;
             margin-bottom: 20px;
         }
-        .speaker-placeholder {
+        .speaker img {
             width: 150px;
-            height: 150px;
-            background-color: #aaa;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: #333;
-            font-weight: bold;
+            height: auto;
             margin-right: 15px;
             flex-shrink: 0;
         }
@@ -88,38 +76,42 @@
         <article>
             <h2>History</h2>
             <p>TechCon started in 2010 as a small meetup of tech enthusiasts. Over the years, it has grown into a global conference attracting innovators, developers, and tech leaders from around the world.</p>
-            <div class="placeholder">History Image</div>
+            <img src="https://via.placeholder.com/400x200?text=History+Image" alt="Historic photo from the first TechCon conference">
         </article>
 
         <!-- Mission Section -->
         <article>
             <h2>Mission</h2>
             <p>Our mission is to inspire innovation, foster collaboration, and showcase groundbreaking technology. TechCon 2024 aims to empower attendees with knowledge, networking opportunities, and hands-on experiences.</p>
-            <div class="placeholder">Mission Image</div>
+            <img src="https://via.placeholder.com/400x200?text=Mission+Image" alt="Illustration representing innovation and collaboration">
         </article>
 
         <!-- Past Speakers Section -->
         <article>
             <h2>Past Speakers</h2>
             <p>Over the years, TechCon has hosted numerous influential speakers from the tech industry. Here are a few notable names:</p>
+
             <div class="speaker">
-                <div class="speaker-placeholder">Dr. Jane Smith</div>
+                <img src="https://via.placeholder.com/150?text=Dr.+Jane+Smith" alt="Photo of Dr. Jane Smith">
                 <div>
                     <strong>Dr. Jane Smith:</strong> Pioneer in AI research and keynote speaker in 2021.
                 </div>
             </div>
+
             <div class="speaker">
-                <div class="speaker-placeholder">Mr. John Doe</div>
+                <img src="https://via.placeholder.com/150?text=Mr.+John+Doe" alt="Photo of Mr. John Doe">
                 <div>
                     <strong>Mr. John Doe:</strong> Cybersecurity expert who shared insights on modern security challenges in 2022.
                 </div>
             </div>
+
             <div class="speaker">
-                <div class="speaker-placeholder">Ms. Alice Johnson</div>
+                <img src="https://via.placeholder.com/150?text=Ms.+Alice+Johnson" alt="Photo of Ms. Alice Johnson">
                 <div>
                     <strong>Ms. Alice Johnson:</strong> Innovator in blockchain technologies, featured in 2023.
                 </div>
             </div>
+
         </article>
     </main>
 
